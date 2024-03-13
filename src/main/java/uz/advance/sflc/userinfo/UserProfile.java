@@ -6,7 +6,7 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import uz.advance.sflc.config.TableName;
+import uz.advance.sflc.utils.TableName;
 import uz.advance.sflc.user.User;
 
 import java.util.Date;

@@ -1,4 +1,4 @@
-package uz.advance.sflc.config;
+package uz.advance.sflc.utils;
 
 public interface TableName {
     String USERS = "users";

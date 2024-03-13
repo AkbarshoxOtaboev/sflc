@@ -12,7 +12,7 @@ import org.hibernate.annotations.UpdateTimestamp;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
-import uz.advance.sflc.config.TableName;
+import uz.advance.sflc.utils.TableName;
 import uz.advance.sflc.userinfo.UserProfile;
 
 import java.time.Instant;
