@@ -3,7 +3,6 @@ package uz.advance.sflc.auth;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
-import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import uz.advance.sflc.config.JwtService;
 import uz.advance.sflc.user.UserService;
