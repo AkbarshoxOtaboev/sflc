@@ -1,4 +1,4 @@
-package uz.advance.sflc.dto;
+package uz.advance.sflc.auth;
 
 import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.validation.constraints.NotBlank;
@@ -7,7 +7,7 @@ import lombok.Data;
 
 @Data
 @Schema(description = "Sign in request")
-public class SignInRequest {
+public class AuthenticationRequest {
     @Schema(description = "username", example = "jon")
     @Size(min = 5, max = 50, message = "The username must contain from 5 to 50 characters")
     @NotBlank(message = "The username cannot be empty")

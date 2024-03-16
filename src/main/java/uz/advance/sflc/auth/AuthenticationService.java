@@ -1,12 +1,11 @@
-package uz.advance.sflc.config;
+package uz.advance.sflc.auth;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
-import uz.advance.sflc.dto.JwtAuthenticationResponse;
-import uz.advance.sflc.dto.SignInRequest;
+import uz.advance.sflc.config.JwtService;
 import uz.advance.sflc.user.UserService;
 
 @Service
@@ -18,7 +17,7 @@ public class AuthenticationService {
     private final AuthenticationManager authenticationManager;
 
 
-    public JwtAuthenticationResponse signIn(SignInRequest request){
+    public JwtAuthenticationResponse signIn(AuthenticationRequest request){
         authenticationManager.authenticate(new UsernamePasswordAuthenticationToken(
                 request.getUsername(),
                 request.getPassword()

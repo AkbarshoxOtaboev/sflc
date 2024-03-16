@@ -1,4 +1,4 @@
-package uz.advance.sflc.dto;
+package uz.advance.sflc.auth;
 
 import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.AllArgsConstructor;
