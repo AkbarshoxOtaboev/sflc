@@ -9,9 +9,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import uz.advance.sflc.auth.AuthenticationService;
-import uz.advance.sflc.auth.JwtAuthenticationResponse;
-import uz.advance.sflc.auth.AuthenticationRequest;
+
 
 @RestController
 @RequestMapping("/api/v1/auth")

@@ -6,7 +6,6 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.security.crypto.password.PasswordEncoder;
-import uz.advance.sflc.auth.RegisterRequest;
 import uz.advance.sflc.user.Role;
 import uz.advance.sflc.user.User;
 import uz.advance.sflc.user.UserService;
